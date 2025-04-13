@@ -36,4 +36,4 @@ const persons = [
 const maleNames = persons
   .filter((person) => person.gender !== "Female")
   .map((person) => person.name);
-console.log("maleNames", maleNames);
+// console.log("maleNames", maleNames);
